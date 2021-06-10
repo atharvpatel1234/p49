@@ -1,0 +1,26 @@
+h1{
+    color : red;
+}
+
+.Header{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+}
+.Details{
+    background-color: brown;
+    display: flex ;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: burlywood;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
